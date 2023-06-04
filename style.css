@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,900&display=swap');
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #e0eefd;
+}
+/* Adding styling for container */
+.container .header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .library-logo {
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.header .login-button {
+    margin-right: 70px;
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 20px 25px;
+}
+.login-button:hover {
+    background-color: rgb(166, 186, 94);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    cursor: pointer;
+}
+
+/* Adding styling for section-1  */
+.section-1  {
+    margin: 40px 30px 40px 100px;          /* top  right bottom left*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 .add-book-button {
+    padding: 20px;
+    font-size: 1.6rem;
+    border: none;
+    background-color: #e0eefd;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.add-book-button:hover {
+    background-color: lime;
+}
+
+/* Adding styling to section two */
+.section-2 {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.section-2 .box {
+    background-color: white;
+    padding: 40px 50px;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.button-grid {
+    display: grid;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+.box .read-button {
+    background-color: lime;
+    padding: 15px 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.read-button:hover {
+    background-color: rgb(142, 238, 142);
+}
+.box .remove-button {
+    background-color: rgb(246, 112, 116);
+    padding: 15px 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.remove-button:hover {
+    background-color: rgb(201, 138, 141);
+}
